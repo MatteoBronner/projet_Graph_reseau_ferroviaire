@@ -38,7 +38,7 @@ pip install networkx matplotlib PyQt6
 ### Lancer le projet
 1. Cloner le dépôt :
 ```bash
-git clone <URL_DU_DEPOT>
+git clone [<URL_DU_DEPOT>](https://github.com/MatteoBronner/projet_Graph_reseau_ferroviaire.git)
 ```
 2. Se placer dans le dossier `src` :
 ```bash
