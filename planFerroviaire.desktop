@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Planificateur Ferroviaire
+Comment=Lance l'application GUI du planificateur de trajets
+Exec=sh -c 'cd "$(dirname "%k")/src" && ./run.sh'
+Icon=./src/icon.png
+Terminal=false
+Categories=Utility;
+StartupNotify=true
