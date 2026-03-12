@@ -30,8 +30,8 @@ for g in gares_triees:
 
 # --- Liaisons Vallée de Than ---
 reseau.ajouter_liaison(than, wittelsheim, 5, 1, "Vallée de Than", "TER")
-reseau.ajouter_liaison(wittelsheim, dornach, 5, 1, "Vallée de than", "TER")
-reseau.ajouter_liaison(dornach, mulhouse, 5, 1, "Vallée de than", "TER")
+reseau.ajouter_liaison(wittelsheim, dornach, 5, 1, "Vallée de Than", "TER")
+reseau.ajouter_liaison(dornach, mulhouse, 5, 1, "Vallée de Than", "TER")
 
 # --- Liaisons TER Belfort → Mulhouse ---
 reseau.ajouter_liaison(belfort, mulhouse, 20, 16, "Express Belfort-Mulhouse", "TER")
