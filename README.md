@@ -52,7 +52,7 @@ chmod +x run.sh
 ```bash
 ./run.sh
 ```
-5. Optionnel : utiliser le fichier `.desktop` fourni pour un lancement direct depuis le bureau.
+5. Optionnel : utiliser le fichier `.desktop` fourni pour un lancement direct depuis la racine du projet.
 
 ---
 
@@ -82,11 +82,11 @@ chmod +x run.sh
 ```
 /src
  ├─ graph.py                 # Définition des classes Gare et ReseauFerroviaire
- ├─ main.py                  # Initialisation du réseau ferroviaire
+ ├─ main.py                  # Initialisation du réseau ferroviaire (utilisé pour tester le code avec affichage dans la console)
  ├─ gui.py                   # Interface graphique avec PyQt6
  ├─ run.sh                   # Script de lancement
  ├─ icone.png                # Icône pour le .desktop
- PlanificateurFerroviaire.desktop  # Lancement depuis le bureau
+ planFerroviaire.desktop     # Lancement depuis la racine du projet
  README.md                   # Ce fichier
 ```
 
